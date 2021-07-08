@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="952d6df8-e35f-4094-95ef-fa688d0dab90" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1itqyIHd24n1UZiIJy8XUYrTDG7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-prbject\living_bill\.idea" />
+      <recent name="E:\java-prbject\living_bill\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java-prbject\living_bill\src\main\resources\db\migration" />
+      <recent name="E:\java-prbject\living_bill\src\main\resources\db\" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="true" />
+      <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp tasks" flag="true" />
+      <visibility group="Maven goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LivingBillApplication">
+    <configuration name="BillController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feiyongjing.living_bill.controller.BillController" />
+      <module name="living_bill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feiyongjing.living_bill.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthIntegrationTest.getLoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="living_bill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feiyongjing.living_bill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.feiyongjing.living_bill" />
+      <option name="MAIN_CLASS_NAME" value="com.feiyongjing.living_bill.AuthIntegrationTest" />
+      <option name="METHOD_NAME" value="getLoginUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillIntegrationTest.createBillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="living_bill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feiyongjing.living_bill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.feiyongjing.living_bill" />
+      <option name="MAIN_CLASS_NAME" value="com.feiyongjing.living_bill.BillIntegrationTest" />
+      <option name="METHOD_NAME" value="createBillTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillIntegrationTest.getMonthBillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="living_bill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feiyongjing.living_bill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.feiyongjing.living_bill" />
+      <option name="MAIN_CLASS_NAME" value="com.feiyongjing.living_bill.BillIntegrationTest" />
+      <option name="METHOD_NAME" value="getMonthBillTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CostTypeIntegrationTest.updateBillCostTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="living_bill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feiyongjing.living_bill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.feiyongjing.living_bill" />
+      <option name="MAIN_CLASS_NAME" value="com.feiyongjing.living_bill.CostTypeIntegrationTest" />
+      <option name="METHOD_NAME" value="updateBillCostTypeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LivingBillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="living_bill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.feiyongjing.living_bill.LivingBillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BillIntegrationTest.getMonthBillTest" />
+        <item itemvalue="JUnit.AuthIntegrationTest.getLoginUserTest" />
+        <item itemvalue="JUnit.BillIntegrationTest.createBillTest" />
+        <item itemvalue="应用程序.BillController" />
+        <item itemvalue="JUnit.CostTypeIntegrationTest.updateBillCostTypeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="952d6df8-e35f-4094-95ef-fa688d0dab90" name="默认的" comment="" />
+      <created>1602737488769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602737488769</updated>
+      <workItem from="1602737502241" duration="11396000" />
+      <workItem from="1602838436096" duration="9106000" />
+      <workItem from="1602905045983" duration="20667000" />
+      <workItem from="1602938488550" duration="2049000" />
+      <workItem from="1602991860433" duration="20227000" />
+      <workItem from="1603023458775" duration="4763000" />
+      <workItem from="1603099084768" duration="12884000" />
+      <workItem from="1603184407935" duration="3586000" />
+      <workItem from="1603270601655" duration="9702000" />
+      <workItem from="1603358494515" duration="14106000" />
+      <workItem from="1603448161207" duration="6283000" />
+      <workItem from="1603509686530" duration="13668000" />
+      <workItem from="1603593507353" duration="24438000" />
+      <workItem from="1603703972284" duration="5388000" />
+      <workItem from="1603785469977" duration="13130000" />
+      <workItem from="1603807443841" duration="3876000" />
+      <workItem from="1603880895930" duration="9453000" />
+      <workItem from="1603960252003" duration="7949000" />
+      <workItem from="1603969123048" duration="9801000" />
+      <workItem from="1603979258289" duration="331000" />
+      <workItem from="1604042533060" duration="14238000" />
+      <workItem from="1604108030158" duration="5571000" />
+      <workItem from="1604119669040" duration="5577000" />
+      <workItem from="1604197370646" duration="6155000" />
+      <workItem from="1604237582242" duration="529000" />
+      <workItem from="1604308000266" duration="711000" />
+      <workItem from="1604396496248" duration="3389000" />
+      <workItem from="1604402510271" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成项目的基本功能">
+      <created>1604399286333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604399286333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="完成项目的基本功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成项目的基本功能" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603975820374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603975820374" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603788426167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603788426167" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603609262675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1603609262675" />
+    <state x="505" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603000587129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="505" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603000587129" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1604113780836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604113780836" />
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602857367102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1602857367102" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1602913810438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602913810438" />
+    <state x="364" y="132" width="806" height="596" key="#xdebugger.evaluate" timestamp="1604122617209">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="364" y="132" width="806" height="596" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1604122617209" />
+    <state x="435" y="0" key="CommitChangelistDialog2" timestamp="1604399280718">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604399280718" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1604061069366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1604061069366" />
+    <state width="1323" height="362" key="GridCell.Tab.0.bottom" timestamp="1604401257058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604401257058" />
+    <state width="1323" height="362" key="GridCell.Tab.0.center" timestamp="1604401257058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604401257058" />
+    <state width="1323" height="362" key="GridCell.Tab.0.left" timestamp="1604401257058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604401257058" />
+    <state width="1323" height="362" key="GridCell.Tab.0.right" timestamp="1604401257058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604401257058" />
+    <state width="1323" height="362" key="GridCell.Tab.1.bottom" timestamp="1604401257059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604401257059" />
+    <state width="1323" height="362" key="GridCell.Tab.1.center" timestamp="1604401257059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604401257059" />
+    <state width="1323" height="362" key="GridCell.Tab.1.left" timestamp="1604401257059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604401257059" />
+    <state width="1323" height="362" key="GridCell.Tab.1.right" timestamp="1604401257059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="362" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604401257059" />
+    <state width="1323" height="471" key="GridCell.Tab.2.bottom" timestamp="1604209814297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="471" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604209814297" />
+    <state width="1323" height="471" key="GridCell.Tab.2.center" timestamp="1604209814297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="471" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1604209814297" />
+    <state width="1323" height="471" key="GridCell.Tab.2.left" timestamp="1604209814297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="471" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1604209814297" />
+    <state width="1323" height="471" key="GridCell.Tab.2.right" timestamp="1604209814297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="471" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1604209814297" />
+    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1603012551085">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1603012551085" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1603020622045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1603020622045" />
+    <state x="472" y="65" key="RollbackChangesDialog" timestamp="1603890386054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="472" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603890386054" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1604398609966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604398609966" />
+    <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1604204779367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1604204779367" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604399304931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604399304931" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1604204223432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1604204223432" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1604398782288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1604398782288" />
+    <state x="211" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603891388090">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="211" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1603891388090" />
+    <state x="413" y="112" key="extract.method.dialog" timestamp="1604043895892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1604043895892" />
+    <state x="513" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1602910583960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="109" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1602910583960" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603962862641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603962862641" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/feiyongjing/living_bill/AuthIntegrationTest.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/feiyongjing/living_bill/LivingBillApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="com.feiyongjing.living_bill.enity.LoginResponse" fieldName="user" />
+        <PinnedItemInfo typeName="com.feiyongjing.living_bill.enity.CostType" fieldName="id" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
