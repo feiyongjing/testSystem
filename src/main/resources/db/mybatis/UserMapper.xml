@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.feiyongjing.living_bill.dao.UserMapper">
+<mapper namespace="com.feiyongjing.exam.dao.UserMapper">
     <select id="getUserPasswordByUsername" parameterType="Map" resultType="java.lang.String">
         SELECT PASSWORD
         FROM USER
         WHERE NAME = #{name};
     </select>
-    <select id="getUserByUsername" parameterType="Map" resultType="com.feiyongjing.living_bill.enity.User">
+    <select id="getUserByUsername" parameterType="Map" resultType="com.feiyongjing.exam.enity.User">
         SELECT *
         FROM USER
         WHERE NAME = #{username};

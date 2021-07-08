@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/living_bill?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/exam?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: root
     driverClassName: com.mysql.cj.jdbc.Driver

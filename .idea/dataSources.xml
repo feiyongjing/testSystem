@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="living_bill@localhost" uuid="ab2dde96-fbe1-418f-8197-2e4e23173261">
+    <data-source source="LOCAL" name="@localhost" uuid="f5b79aac-6ecf-4e8e-be06-1f03f346859f">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/living_bill?useSSL=false&amp;allowPublicKeyRetrieval=true</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="living_bill@localhost [2]" uuid="8e6b6bba-08b1-45f1-9a0a-8c3fd206f622">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3307/living_bill?useSSL=false&amp;allowPublicKeyRetrieval=true</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
     </data-source>
   </component>
 </project>

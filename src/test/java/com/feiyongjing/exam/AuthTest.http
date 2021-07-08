@@ -1,0 +1,27 @@
+### 注册请求测试
+POST http://localhost:8080/api/v1/logon
+Content-Type: application/json
+
+{
+  "username": "12345678910",
+  "password": "111111"
+}
+
+### 登录请求测试
+POST http://localhost:8080/api/v1/login
+Content-Type: application/json
+
+{
+  "username": "12345678910",
+  "password": "111111"
+}
+### 登录状态查询测试
+GET http://localhost:8080/api/v1/status
+Accept: application/json
+### 退出登录测试
+POST http://localhost:8080/api/v1/logout
+Content-Type: application/json
+
+{}
+### 登录状态查询测试
+

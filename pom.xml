@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.feiyongjing</groupId>
-	<artifactId>living_bill</artifactId>
+	<artifactId>exam</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>living_bill</name>
-	<description>日常生活的收入和支出账单管理</description>
+	<name>exam</name>
+	<description>考试系统</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -70,6 +70,10 @@
             <version>6.0</version>
             <scope>test</scope>
         </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
     </dependencies>
 
 	<build>
@@ -113,7 +117,7 @@
 							<arguments>
 								<argument>run</argument>
 								<argument>--name</argument>
-								<argument>test_living_bill</argument>
+								<argument>test_exam</argument>
 								<argument>-e</argument>
 								<argument>MYSQL_ROOT_PASSWORD=root</argument>
 								<argument>-e</argument>
@@ -139,22 +143,22 @@
 							</arguments>
 						</configuration>
 					</execution>
-					<execution>
-						<id>teardown-test-database</id>
-						<phase>post-integration-test</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<longModulepath>false</longModulepath>
-							<executable>docker</executable>
-							<arguments>
-								<argument>rm</argument>
-								<argument>-f</argument>
-								<argument>test_living_bill</argument>
-							</arguments>
-						</configuration>
-					</execution>
+<!--					<execution>-->
+<!--						<id>teardown-test-database</id>-->
+<!--						<phase>post-integration-test</phase>-->
+<!--						<goals>-->
+<!--							<goal>exec</goal>-->
+<!--						</goals>-->
+<!--						<configuration>-->
+<!--							<longModulepath>false</longModulepath>-->
+<!--							<executable>docker</executable>-->
+<!--							<arguments>-->
+<!--								<argument>rm</argument>-->
+<!--								<argument>-f</argument>-->
+<!--								<argument>test_living_bill</argument>-->
+<!--							</arguments>-->
+<!--						</configuration>-->
+<!--					</execution>-->
 				</executions>
 			</plugin>
 			<plugin>
@@ -162,7 +166,7 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>6.5.5</version>
 				<configuration>
-					<url>jdbc:mysql://localhost:3306/living_bill?useSSL=false&amp;allowPublicKeyRetrieval=true</url>
+					<url>jdbc:mysql://localhost:3306/exam?useSSL=false&amp;allowPublicKeyRetrieval=true</url>
 					<user>root</user>
 					<password>root</password>
 				</configuration>
@@ -174,7 +178,7 @@
 							<goal>migrate</goal>
 						</goals>
 						<configuration>
-							<url>jdbc:mysql://localhost:3307/living_bill?useSSL=false&amp;allowPublicKeyRetrieval=true</url>
+							<url>jdbc:mysql://localhost:3307/exam?useSSL=false&amp;allowPublicKeyRetrieval=true</url>
 							<user>root</user>
 							<password>root</password>
 <!--							<locations>-->

@@ -8,8 +8,5 @@
     </settings>
     <mappers>
         <mapper resource="db/mybatis/UserMapper.xml"/>
-        <mapper resource="db/mybatis/CostTypeMapper.xml"/>
-        <mapper resource="db/mybatis/BillMapper.xml"/>
-        <mapper resource="db/mybatis/UserAttachmentTableMapper.xml"/>
     </mappers>
 </configuration>
