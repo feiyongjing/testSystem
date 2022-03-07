@@ -148,18 +148,6 @@ public class AuthController {
     }
 
 
-
-
-
-
-//    @GetMapping("/user")
-//    public Response<LoginResponse> getLoginUser() {
-//        User user = UserContext.getCurrentUser();
-//        long billTotalNumber = billService.getTotalBillNumberByUserId(user.getId());
-//        int totalNumberOfDays = userService.getUserFirstCreatedBillTimeByUserId(user.getId());
-//        return Response.of(OK.value(), "成功获取资源", new LoginResponse(billTotalNumber, totalNumberOfDays, user));
-//    }
-
     public static class UsernameAndPassword {
         private String username;
         private String password;
