@@ -37,6 +37,10 @@ public class AuthController {
         this.encryption = encryption;
     }
 
+    /**
+     *
+     * @return 登录页面
+     */
     @GetMapping("/login.html")
     public ModelAndView loginModel() {
         Map<String, Object> model = new HashMap<>();
@@ -46,6 +50,11 @@ public class AuthController {
         model.put("item3", "//localhost:8080/api/v1/login");
         return new ModelAndView("index", model);
     }
+
+    /**
+     *
+     * @return 登出页面
+     */
     @GetMapping("/logon.html")
     public ModelAndView logonModel() {
         Map<String, Object> model = new HashMap<>();
@@ -66,7 +75,6 @@ public class AuthController {
     public Response<User> logon(@RequestBody UsernameAndPassword usernameAndPassword) {
         try {
             paramCheck(usernameAndPassword);
-//            String encryptedPassword = bCryptPasswordEncoder.encode(usernameAndPassword.getPassword());
             String encryptedPassword = encryption.String2SHA256StrJava(usernameAndPassword.password);
             User user = new User(usernameAndPassword.getUsername(), encryptedPassword, "默认图像");
             userService.createUser(user);

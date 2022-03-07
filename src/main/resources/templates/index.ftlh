@@ -11,9 +11,6 @@
 <div align="center">
     <a href=${item} target="_self">${item1}</a>
 </div>
-<form >
-    <input type="i"/>
-</form>
 <div id="main-text" align="center">
     <div>
         <label>电话号码</label>
@@ -27,6 +24,9 @@
         <button type="button" onclick="myFunction()">${item2}</button>
     </div>
 </div>
+<div>
+    <div id="userInfo"></div>
+</div>
 </body>
 <script>
     function myFunction() {
@@ -34,7 +34,9 @@
         request.onreadystatechange = function () {
             if (request.readyState === 4 && request.status === 200) {
                 console.log('request', request)
-                document.getElementById("main-text").innerHTML = request.responseText;
+                var responseText = JSON.parse(request.responseText);
+
+                document.getElementById("userInfo").getElementsByClassName(username).innerHTML = responseText.name;
             } else {
             }
         }

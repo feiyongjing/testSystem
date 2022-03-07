@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="living_bill" />
+        <module name="exam" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="exam" target="1.8" />
       <module name="living_bill" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exam" options="-parameters" />
       <module name="living_bill" options="-parameters" />
     </option>
   </component>
