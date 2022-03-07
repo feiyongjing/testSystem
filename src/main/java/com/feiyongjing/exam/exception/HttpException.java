@@ -6,6 +6,8 @@ public class HttpException extends RuntimeException {
     int statusCode;
     String message;
 
+
+
     private HttpException(String message, int statusCode) {
         this.message = message;
         this.statusCode = statusCode;
